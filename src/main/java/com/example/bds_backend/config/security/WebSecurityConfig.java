@@ -35,7 +35,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .headers()
                 .and()
                 .authorizeRequests()
-                .anyRequest().permitAll()
+                .anyRequest().permitAll();
 
     }
 }
